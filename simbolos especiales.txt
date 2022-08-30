@@ -1,0 +1,4 @@
+` (back tics): AltGr + tecla que cierra llave y corchete. Alt + 96
+
+|| (or): AltGr + 1. Alt + 124  
+
