@@ -1,4 +1,4 @@
-let antiguedad= parseInt(prompt("Ingrese años trabajados"));
+let antiguedad= parseInt(prompt("Ingrese su antiguedad en años"));
 let diasTomados= parseInt(prompt("Ingrese días de vacaciones tomados en el año"));
 
 
@@ -19,10 +19,3 @@ let mensaje= `Le corresponden ${resultado} días de vacaciones`;
 alert(mensaje);  
  
 
-function saludar(nombre){
-    if(nombre === "laura"){
-        return "hola laura";
-    }else{
-        return "hola desconocido";
-    }
-}

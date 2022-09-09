@@ -2,3 +2,4 @@
 
 || (or): AltGr + 1. Alt + 124  
 
+\ lenovo: AltGr + ?

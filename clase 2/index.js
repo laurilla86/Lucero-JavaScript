@@ -1,4 +1,4 @@
-let mes = prompt("ingrese mes")
+/* let mes = prompt("ingrese mes")
 if(mes==="enero" || mes==="febrero" || mes==="marzo"){
     alert("Estamos en verano");
 }else if(mes==="abril" || mes==="mayo" || mes==="junio"){
@@ -8,6 +8,15 @@ if(mes==="enero" || mes==="febrero" || mes==="marzo"){
 }else{
     alert("Estamos en primavera");
 }
+ */
 
+let nombreIngresado=prompt("Ingresar nombre");
+let apellidoIngresado =prompt("Ingrese apellido");
+
+if((nombreIngresado !="") && (apellidoIngresado !="")){
+    alert("Nombre: "+nombreIngresado + "\nApellido: "+apellidoIngresado);
+}else{
+    alert("Error: Ingresar nombre y apellido");
+}
 
 
