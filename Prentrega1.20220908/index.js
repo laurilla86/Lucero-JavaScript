@@ -16,10 +16,17 @@ const persona4 = new Persona("Ringuelet", "Carlos", 14, "444", "19.844.122", "Ad
 
 
 
+const resta = (a, b) => a-b;
+
+
 let Legajo= parseInt(prompt("Ingrese el legajo por el que desea realizar la consulta (legajos disponibles: 111, 222, 333, 444)"));
 let diasTomados= parseInt(prompt("Ingrese días de vacaciones tomados en el año"));
+while(legajo !="ESC"){
+
+}
 
 
+    
 function calculadoraLicencias(añosTrabajados, diasTomados){
     if(antiguedad<5){
         return (14 - diasTomados);
